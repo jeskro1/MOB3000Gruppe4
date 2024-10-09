@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/riksvaapen"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/riksvaapen"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ListeDemoCompose"
+        tools:targetApi="34">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ListeDemoCompose">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".FylkeListeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_fylke_liste"
+            android:theme="@style/Theme.ListeDemoCompose">
+        </activity>
+
+        <activity
+            android:name=".KommuneListeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_kommune_liste"
+            android:theme="@style/Theme.ListeDemoCompose">
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,23 @@
+<resources>
+    <string-array name="norske_fylker">
+        <item>Agder</item>
+        <item>Akershus</item>
+        <item>Buskerud</item>
+        <item>Finnmark</item>
+        <item>Innlandet</item>
+        <item>Møre og Romsdal</item>
+        <item>Nordland</item>
+        <item>Oslo</item>
+        <item>Rogaland</item>
+        <item>Telemark</item>
+        <item>Troms</item>
+        <item>Trøndelag</item>
+        <item>Vestfold</item>
+        <item>Vestland</item>
+        <item>Østfold</item>
+    </string-array>
+    <string name="app_name">Demo: Lister med Compose</string>
+    <string name="title_activity_fylke_liste">FylkeListeActivity</string>
+    <string name="title_activity_kommune_liste">KommuneListeActivity</string>
+
+</resources>
